@@ -10,7 +10,7 @@
 ##### • [Project Objectives](#project-objective)
 ##### • [Data Sources](#data-sources)
 ##### • [Data Summary](#data-summary)
-##### • Team Collaboration
+##### • [Team Collaboration](#team-collaboration)
 ##### • [Tools and Technologies](#tools-and-technologies)
 ##### • [Skills Demonstrated](#skills-demonstrated)
 ##### • [Methodology](#methodology)
