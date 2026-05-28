@@ -10,6 +10,7 @@
 ##### • [Project Objectives](#project-objective)
 ##### • [Data Sources](#data-sources)
 ##### • [Data Summary](#data-summary)
+##### • Team Collaboration
 ##### • [Tools and Technologies](#tools-and-technologies)
 ##### • [Skills Demonstrated](#skills-demonstrated)
 ##### • [Methodology](#methodology)
@@ -59,12 +60,12 @@ Dataset provided by 10Alytics as part of a healthcare SQL analytics capstone pro
 
 ## Dataset Summary
 The dataset was already cleaned and comprises:
-### Clinical Dataset
+#### Clinical Dataset
 * 1,089 skin lesion records
 * 2 relational healthcare tables
 * 29+ demographic and clinical variables
 
-### Patient_Info Table
+#### Patient_Info Table
 Includes:
 * Age
 * Gender
@@ -76,7 +77,7 @@ Includes:
 * Sewage system access
 * Ethnicity background
 
-### Lesion_Info Table
+#### Lesion_Info Table
 Includes:
 * Lesion diagnosis type
 * Fitzpatrick skin type
@@ -85,6 +86,9 @@ Includes:
 * Bleeding and pain symptoms
 * Biopsy confirmation
 * Lesion image metadata
+
+## Team Collaboration
+Led a 6-member analytics team in the design and analysis of a SQL-based healthcare dataset focused on early skin cancer detection.
 
 ## Tools & Technologies
 * PostgreSQL
@@ -106,13 +110,13 @@ Includes:
 
 ## Methodology
 
-### Database Design
+#### Database Design
 Designed a normalized relational healthcare database integrating patient demographic data with lesion-specific clinical records using primary and foreign key relationships.
 
-### Data Preparation
+#### Data Preparation
 Imported and validated structured healthcare datasets within PostgreSQL to ensure query reliability and analytical consistency.
 
-### SQL Analysis
+#### SQL Analysis
 Performed exploratory SQL analysis using:
 * INNER JOIN operations
 * Aggregations
@@ -120,7 +124,7 @@ Performed exploratory SQL analysis using:
 * Filtering logic
 * Grouped statistical analysis
 
-### Analytics
+#### Analytics
 Investigated relationships between:
 * Age and malignant lesion prevalence
 * Gender and tumour occurrence
@@ -129,24 +133,24 @@ Investigated relationships between:
 * Ethnicity background and lesion distribution
 * Lesion size and malignancy
 
-### ML-Ready Data Structuring
+#### ML-Ready Data Structuring
 Prepared structured metadata suitable for downstream machine learning and AI-assisted diagnostic workflows.
 
 ## Key Insights
 
-### Age-Related Cancer Risk
+#### Age-Related Cancer Risk
 Malignant lesions were predominantly concentrated among individuals aged 60–70, reinforcing age as a major demographic risk factor.
 
-### Gender Distribution Patterns
+#### Gender Distribution Patterns
 Male patients consistently showed higher malignant lesion prevalence across most tumour categories, indicating increased cumulative environmental and occupational exposure risk.
 
-### Fitzpatrick Skin Type Correlation
+#### Fitzpatrick Skin Type Correlation
 Malignant lesions were overwhelmingly concentrated among lighter Fitzpatrick skin types, particularly Type II, aligning with established UV-mediated cancer formation patterns.
 
-### Environmental Exposure Findings
+#### Environmental Exposure Findings
 Pesticide exposure and piped water usage showed measurable association with increased malignant lesion occurrence, suggesting potential environmental carcinogen influence.
 
-### Lesion Size as a Diagnostic Indicator
+#### Lesion Size as a Diagnostic Indicator
 Larger lesion diameters strongly correlated with malignant tumour classifications, while smaller lesions were predominantly benign.
 
 ## Business and Healthcare Impact
